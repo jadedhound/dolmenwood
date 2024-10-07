@@ -24,8 +24,8 @@
     {% for subpath in section.subsections %}
     {% set subsection = get_section(path=subpath) %}
     <div>
-        <h2 class="font-[OldLondon] text-4xl text-sky-500">{{ subsection.title }}</h2>
-        <ul class="list-none ml-8 gap-2">
+        <h2 class="text-xl text-sky-500 font-bold font-serif">{{ subsection.title }}</h2>
+        <ul class="list-none ml-4 gap-2">
           {% for page in subsection.pages %}
           <li class="mt-4">
             <a href="{{ page.permalink | safe }}" class="md:max-w-3xl md:place-self-center w-full">

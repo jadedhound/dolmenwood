@@ -3,8 +3,7 @@ title = "The Journey Begins"
 description = "A wanderer’s first steps into the tricksome and beguiling Dolmenwood."
 weight = 1
 [extra] 
-lead_image = "images/piper-1.webp"
-trail_image = "images/piper-2.webp"
+lead_image = "images/Adventurers.png"
 +++
 
 This website is a gateway to adventure in the beguiling realm of Dolmenwood - a
